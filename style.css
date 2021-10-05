@@ -1,9 +1,10 @@
+
+
 .header{
     background-color:#1F2937;
     display: flex;
     flex-direction: column;
-    height: max-content;
-    
+    height: max-content; 
     
 }
 
@@ -77,6 +78,7 @@ img{
 button.signup{
     background-color: #3882F2;
     width: max-content;
+    border-color:#3882F2; 
     border-radius: 15px;
     padding-left: 20px;
     padding-right: 20px;
@@ -84,4 +86,38 @@ button.signup{
     color: white;
     font-weight: 700;
     margin: 0%;
+}
+
+.Info h2{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+   }
+
+.box{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 200px;
+    text-align: center;
+}
+
+.box img{
+    width:200px;
+    height:200px;
+    border-style: solid;
+    border-color:#3882F2;
+    border-radius: 15px;
+}
+
+.illustration{
+    display: flex;
+    justify-content:center;
+    gap: 50px;
+}
+
+.Info{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
 }
