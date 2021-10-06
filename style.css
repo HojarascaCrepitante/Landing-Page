@@ -1,11 +1,10 @@
 
-
 .header{
     background-color:#1F2937;
     display: flex;
     flex-direction: column;
     height: max-content; 
-    
+    background: #1F2937;
 }
 
 .website h1{
@@ -22,7 +21,6 @@
 .website p{
     font-size: 18px;
     color: #E5E7EB;
-  
     width:450px;
     flex-wrap: wrap;
     flex: 1;
@@ -54,7 +52,6 @@ ul{
 
 .website{
     display: flex;
-    
     flex-direction: column;   
     width: 450px;
     height: 250px;
@@ -114,10 +111,36 @@ button.signup{
     display: flex;
     justify-content:center;
     gap: 50px;
+    margin-bottom:50px
 }
 
 .Info{
     display: flex;
     flex-direction: column;
     gap:30px;
+}
+
+.quoteSection{
+    background-color:#E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    display: flex;
+    padding: 80px;
+    justify-content: center;
+    
+}
+
+.quoteSection p{
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.quoteSection i{
+    text-align: left;
+}
+
+.quote{
+    width:900px;
 }
