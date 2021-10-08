@@ -1,0 +1,1 @@
+This is the landing page for The Odin Project, my first time making an entire layout all by myself so I must have a lot of bad practices like using way too many divs and such, but I will be quite proud of the result nonetheless. Added some images though they are mostly stock pictures. Gotta keep making progress.
